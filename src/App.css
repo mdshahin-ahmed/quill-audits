@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+* {
+  font-family: "Jost", sans-serif;
+}
+
+.buttonBackground {
+  background: linear-gradient(
+    90deg,
+    rgba(98, 76, 244, 1) 0%,
+    rgba(113, 132, 253, 1) 100%
+  );
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 5px 8px 10px #00000029;
+}
+
 .App {
   text-align: center;
 }

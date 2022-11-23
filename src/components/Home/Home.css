@@ -1,0 +1,8 @@
+.headerBannerWrap {
+  background: linear-gradient(
+    135deg,
+    rgba(28, 43, 89, 1) 0%,
+    rgba(40, 65, 136, 1) 25%,
+    rgba(5, 18, 67, 1) 100%
+  );
+}

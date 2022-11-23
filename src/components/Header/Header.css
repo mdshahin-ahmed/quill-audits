@@ -1,0 +1,29 @@
+.navbarWrap {
+  background: transparent !important;
+  padding-top: 10px;
+}
+.navbar-nav a {
+  /* padding: 16px 16px !important; */
+  font-size: 16px !important;
+  color: #ffffff;
+  margin-left: 15px;
+  align-self: center;
+}
+.navbar-nav a:hover {
+  color: rgb(236, 234, 234);
+  transition: all 0.5s;
+}
+.navbar-nav a:focus {
+  color: rgb(236, 234, 234);
+}
+.navbar-toggler-icon {
+  background-image: url(../../img/images/navbarIcon.svg);
+}
+.navbar-toggler {
+  border: 0px;
+  box-shadow: none !important;
+}
+.navBarButton {
+  border: 0px;
+  padding: 8px 30px;
+}
