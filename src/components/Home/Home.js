@@ -10,8 +10,8 @@ const Home = () => {
       <div className="headerBannerWrap">
         <Header></Header>
         <Banner></Banner>
-        <Services></Services>
       </div>
+      <Services></Services>
     </div>
   );
 };

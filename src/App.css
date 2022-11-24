@@ -14,6 +14,8 @@
   border-radius: 10px;
   color: white;
   box-shadow: 5px 8px 10px #00000029;
+  border: 0px;
+  padding: 8px 30px;
 }
 
 .App {

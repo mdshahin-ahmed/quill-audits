@@ -1,0 +1,45 @@
+.notFound {
+  color: red;
+}
+.servicesWrap {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: left;
+}
+.servicesHeader {
+  text-align: left;
+}
+.servicesHeader h5 {
+  color: #2d83ee;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.servicesHeader h3 {
+  color: #391400;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pathfoundTextWrap img {
+  height: 35px;
+  width: 35px;
+}
+.pathfoundTextWrap h5 {
+  font-size: 15px;
+  align-self: center;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  margin-bottom: 0px;
+  color: #3785e8;
+}
+.pathfundWrap {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.imageText img {
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+}
+.singleServiceWrap {
+  margin-bottom: 50px;
+}
