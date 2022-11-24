@@ -1,7 +1,10 @@
 .bannerWrap {
-  margin-top: 160px;
+  margin-top: 130px;
   text-align: start;
   color: white;
+}
+.bannerText {
+  align-self: center;
 }
 .bannerText h1 {
   color: white;
@@ -31,4 +34,19 @@
   margin-left: 48px;
   background-color: transparent;
   border: 1px solid rgba(113, 132, 253, 1);
+}
+.bannerBottomWrap {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.bannerBottomWrap h2 {
+  margin-right: 15px;
+  align-self: center;
+  font-size: 30px;
+  color: #2d83ee;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.bannerBottomWrap p {
+  margin-bottom: 0px;
 }
