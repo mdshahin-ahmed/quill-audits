@@ -1,0 +1,16 @@
+.testomonialHeader h2 {
+  font-size: 25px;
+  align-self: center;
+}
+.testomonialHeader img {
+  height: 45px;
+  width: 45px;
+  margin-right: 5px;
+}
+.testomonialHeader span {
+  font-weight: bold;
+}
+.testomonial h5 {
+  font-size: 19px;
+  font-weight: bold;
+}

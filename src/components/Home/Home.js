@@ -5,6 +5,7 @@ import Header from "../Header/Header";
 import Security from "../Security/Security";
 import Services from "../Services/Services";
 import SmartContractAudit from "../SmartContractAudit/SmartContractAudit";
+import Testimonials from "../Testimonials/Testimonials";
 import Works from "../Works/Works";
 import "./Home.css";
 
@@ -20,6 +21,7 @@ const Home = () => {
       <Works></Works>
       <SmartContractAudit></SmartContractAudit>
       <Featured></Featured>
+      <Testimonials></Testimonials>
     </div>
   );
 };

@@ -6,8 +6,9 @@ import moneyControl from "../../img/images/money_control.png";
 import crunch from "../../img/images/crunch.png";
 import hackerNoon from "../../img/images/hacker_noon.png";
 import investIn from "../../img/images/invest_in.png";
+import "./Featured.css";
 
-const data = [
+const datas = [
   {
     id: 1,
     src: cointellligence,
@@ -44,13 +45,18 @@ const Featured = () => {
             <h3>As Featured In</h3>
           </div>
           <div className="features">
-            <div className="row">
-              <div className="col-sm-6 col-md-4">
-                <div className="feature">
-                  <img src={hackerNoon} alt="" />
-                  <button>Read More</button>
-                </div>
-              </div>
+            <div className="row mx-5">
+              {datas.map((data) => {
+                const { id, src } = data;
+                return (
+                  <div key={id} className="col-sm-6 col-md-4 ">
+                    <div className="feature">
+                      <img src={src} alt="" />
+                      <button>Read More</button>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
