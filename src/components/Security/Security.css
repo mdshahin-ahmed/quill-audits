@@ -1,0 +1,13 @@
+.securityHeader h5 {
+  color: #2d83ee;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.securityHeader h3 {
+  color: #391400;
+  font-size: 30px;
+  font-weight: bold;
+}
+.securityWrap img {
+  padding: 40px;
+}

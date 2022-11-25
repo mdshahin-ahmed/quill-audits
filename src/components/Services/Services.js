@@ -9,7 +9,7 @@ import service1_3 from "../../img/images/service1-3.JPG";
 import service1_4 from "../../img/images/service1-4.JPG";
 import secondService from "../../img/animations/secondService.json";
 import thiredService from "../../img/animations/thirdService.json";
-import service3_1 from "../../img/images/service2-1.JPG";
+import service3_1 from "../../img/images/service3_1.JPG";
 
 const Services = () => {
   return (
@@ -118,7 +118,7 @@ const Services = () => {
       {/* third service start */}
       <div className="row mx-5 singleServiceWrap">
         <div className="col-md-6 px-md-5 mb-4 mb-md-0">
-          <Lottie animationData={thiredService}></Lottie>
+          <Lottie animationData={firstService}></Lottie>
         </div>
         <div className="col-md-6 mb-4 mb-md-0 align-self-center">
           <div className="servicesHeader">

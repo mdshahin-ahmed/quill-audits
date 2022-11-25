@@ -1,0 +1,31 @@
+.worksWrap {
+  background: linear-gradient(
+    135deg,
+    rgba(28, 43, 89, 1) 0%,
+    rgba(40, 65, 136, 1) 25%,
+    rgba(5, 18, 67, 1) 100%
+  );
+  padding: 40px 0px;
+}
+.worksHeaderWrap h5 {
+  color: #2d83ee;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.worksHeaderWrap h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.headingButtonWrap button {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  margin: 10px;
+}
+.headingButtonWrap .buttonActive {
+  background-color: #2d83ee !important;
+  border: 1px solid #2d83ee;
+}

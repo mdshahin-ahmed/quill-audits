@@ -1,0 +1,31 @@
+.smartContractAuditTextWrap {
+  display: flex;
+  flex-direction: column;
+}
+.smartContractAuditTextWrap p {
+  border: 1px solid #2d83ee;
+  color: #2d83ee;
+  width: 70%;
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0px;
+  border-radius: 10px;
+}
+.smartContractAuditTextWrap .first_p {
+  align-self: flex-end;
+}
+.smartContractAuditTextWrap .second_p {
+  align-self: center;
+}
+.smartContractAuditTextWrap .thired_p {
+  align-self: flex-start;
+  background-color: #4a4bee;
+  color: white;
+  margin-top: -10px;
+}
+.smartContractAuditTextWrap .fourth_p {
+  align-self: center;
+}
+.smartContractAuditTextWrap .fifth_p {
+  align-self: flex-end;
+}
