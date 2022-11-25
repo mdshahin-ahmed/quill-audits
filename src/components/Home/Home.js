@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../Banner/Banner";
+import Blog from "../Blog/Blog";
 import Featured from "../Featured/Featured";
+import HashingBits from "../HashingBits/HashingBits";
 import Header from "../Header/Header";
 import Security from "../Security/Security";
 import Services from "../Services/Services";
@@ -22,6 +24,8 @@ const Home = () => {
       <SmartContractAudit></SmartContractAudit>
       <Featured></Featured>
       <Testimonials></Testimonials>
+      <Blog></Blog>
+      <HashingBits></HashingBits>
     </div>
   );
 };

@@ -1,0 +1,53 @@
+.hashingBitsWrap {
+  background: linear-gradient(
+    135deg,
+    rgba(28, 43, 89, 1) 0%,
+    rgba(40, 65, 136, 1) 25%,
+    rgba(5, 18, 67, 1) 100%
+  );
+}
+.successEmail i {
+  color: white;
+  background-color: #29d089;
+  padding: 3px;
+  border-radius: 50%;
+}
+.hashingBitsTextWrap {
+  padding: 30px 0px;
+  color: white;
+  text-align: left;
+}
+.hashingBitsTextWrap h6 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.hashingBitsTextWrap input {
+  width: 70%;
+  background-color: #0000004d;
+  border: 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.hashingBitsTextWrap input::placeholder {
+  color: white;
+  opacity: 0.59;
+}
+.hashingBitsImageBg {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../img/images/envalopeBg.svg");
+  background-size: 115%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hashingBitsImage {
+  height: 100%;
+  width: 100%;
+}
+.hashingBitsImage img {
+  width: 50%;
+  height: 50%;
+}
