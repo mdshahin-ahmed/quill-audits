@@ -20,16 +20,15 @@ const Footer = () => {
               </p>
             </div>
             <select className="selectWrap" name="" id="">
-              <option value="eng">
-                <img src={engflag} alt="" />
+              <option className="engFlag" value="eng">
                 <span>ENG</span>
               </option>
               <option value="japan">
-                <img src={jflag} alt="" />
+                {/* <img src={jflag} alt="" /> */}
                 <span>日本語</span>
               </option>
               <option value="china">
-                <img src={cflag} alt="" />
+                {/* <img src={cflag} alt="" /> */}
                 <span>汉语</span>
               </option>
             </select>

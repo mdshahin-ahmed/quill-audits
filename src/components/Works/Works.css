@@ -29,3 +29,45 @@
   background-color: #2d83ee !important;
   border: 1px solid #2d83ee;
 }
+.work h3 {
+  font-size: 20px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.work button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 8px 25px;
+  margin: 10px 10px;
+  text-transform: uppercase;
+}
+.work img {
+  text-align: center;
+}
+.sliderWrap {
+  width: 100%;
+}
+.rec-arrow-right,
+.rec-arrow-left {
+  color: white !important;
+  background: transparant !important;
+}
+.rec-arrow-right:hover,
+.rec-arrow-left:hover {
+  background-color: transparent !important;
+}
+.rec-pagination {
+  display: none !important;
+}
+.workButton button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 8px 25px;
+  margin: 10px 10px;
+  text-transform: uppercase;
+}

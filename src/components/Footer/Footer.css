@@ -19,3 +19,6 @@
 .selectWrap {
   width: 80%;
 }
+.engFlag {
+  background-image: url("../../img//images/eng.png");
+}
