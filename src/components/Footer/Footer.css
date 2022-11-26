@@ -17,8 +17,17 @@
   align-self: center;
 }
 .selectWrap {
-  width: 80%;
+  width: 120px;
+  text-align: left;
+  display: flex;
 }
 .engFlag {
   background-image: url("../../img//images/eng.png");
+}
+.languageFlag {
+  display: flex;
+}
+.languageFlag img {
+  margin-left: 15px;
+  margin-top: 15px;
 }

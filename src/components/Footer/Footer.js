@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="footerWrap py-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-4">
             <div className="parentCompany mb-3 text-start">
               <h5>Parent Company</h5>
               <img className="img-fluid my-2" src={parentCompany} alt="" />
@@ -32,6 +32,10 @@ const Footer = () => {
                 <span>汉语</span>
               </option>
             </select>
+            <div className="languageFlag">
+              <img src={jflag} alt="" />
+              <img src={cflag} alt="" />
+            </div>
           </div>
           <div className="col-md-8">
             <div className="row text-start">

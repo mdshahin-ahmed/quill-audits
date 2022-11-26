@@ -1,0 +1,17 @@
+.accordionHeading {
+  display: flex;
+  justify-content: space-between;
+}
+.accodionIcon {
+  color: white;
+  background-color: #2d83ee;
+  padding: 1px 8px;
+  border-radius: 50%;
+  align-self: center;
+}
+.accordion {
+  border: 1px solid #2d83ee;
+  padding: 20px;
+  text-align: start;
+  cursor: pointer;
+}

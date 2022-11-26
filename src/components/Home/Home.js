@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
+import FAQ from "../FAQ/FAQ";
 import Featured from "../Featured/Featured";
 import Footer from "../Footer/Footer";
 import HashingBits from "../HashingBits/HashingBits";
@@ -26,6 +27,7 @@ const Home = () => {
       <SmartContractAudit></SmartContractAudit>
       <Featured></Featured>
       <Testimonials></Testimonials>
+      <FAQ></FAQ>
       <Blog></Blog>
       <HashingBits></HashingBits>
       <JoinHands></JoinHands>
