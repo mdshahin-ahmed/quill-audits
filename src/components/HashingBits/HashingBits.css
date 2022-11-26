@@ -17,6 +17,9 @@
   color: white;
   text-align: left;
 }
+.hashingBitsTextWrap img {
+  width: 100%;
+}
 .hashingBitsTextWrap h6 {
   margin-top: 40px;
   margin-bottom: 20px;

@@ -2,8 +2,10 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import Blog from "../Blog/Blog";
 import Featured from "../Featured/Featured";
+import Footer from "../Footer/Footer";
 import HashingBits from "../HashingBits/HashingBits";
 import Header from "../Header/Header";
+import JoinHands from "../JoinHands/JoinHands";
 import Security from "../Security/Security";
 import Services from "../Services/Services";
 import SmartContractAudit from "../SmartContractAudit/SmartContractAudit";
@@ -26,6 +28,8 @@ const Home = () => {
       <Testimonials></Testimonials>
       <Blog></Blog>
       <HashingBits></HashingBits>
+      <JoinHands></JoinHands>
+      <Footer></Footer>
     </div>
   );
 };

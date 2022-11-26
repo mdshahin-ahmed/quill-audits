@@ -1,0 +1,21 @@
+.footerWrap {
+  background-color: #28293e;
+  color: white;
+}
+.footerSection {
+  margin-bottom: 20px;
+}
+.footerSection p {
+  margin-bottom: 3px;
+}
+.footerEmail span {
+  text-decoration: underline;
+  margin-left: 5px;
+  align-self: center;
+}
+.footerEmail i {
+  align-self: center;
+}
+.selectWrap {
+  width: 80%;
+}
