@@ -50,3 +50,15 @@
 .bannerBottomWrap p {
   margin-bottom: 0px;
 }
+@media (max-width: 610px) {
+  .bannerText h1 {
+    font-size: 40px;
+  }
+  .bannerButton button {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .exploreButton {
+    margin-left: 0px !important;
+  }
+}

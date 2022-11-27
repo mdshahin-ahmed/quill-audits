@@ -17,12 +17,9 @@
   align-self: center;
 }
 .selectWrap {
-  width: 120px;
+  min-width: 150px;
   text-align: left;
   display: flex;
-}
-.engFlag {
-  background-image: url("../../img//images/eng.png");
 }
 .languageFlag {
   display: flex;
@@ -30,4 +27,33 @@
 .languageFlag img {
   margin-left: 15px;
   margin-top: 15px;
+}
+.socialIconWrap {
+  text-align: left;
+}
+.socialIconWrap img {
+  padding: 10px 10px;
+}
+.socialIconWrap h6 {
+  text-align: center;
+}
+.footerBottomText p {
+  color: #dfdfdf;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.footerBottomText {
+  padding-top: 20px;
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  background: rgb(240, 239, 239);
+  color: black;
+  width: 150px;
+  padding-bottom: 0px !important;
+}
+.ReactFlagsSelect-module_selectOptions__3LNBJ {
+  background: rgb(207, 207, 207) !important;
+}
+.ReactFlagsSelect-module_selectFlag__2q5gC svg {
+  width: 40px;
 }

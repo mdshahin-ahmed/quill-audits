@@ -30,8 +30,8 @@ const faqs = [
 
 const FAQ = () => {
   return (
-    <div className="faqWrap container m-5">
-      <div className="row">
+    <div className="faqWrap container p-5">
+      <div className="row ">
         <div className="col-md-6 faqTextWrap text-start ">
           <div className="servicesHeader">
             <h5>faq</h5>
